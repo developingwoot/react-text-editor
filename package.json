@@ -1,0 +1,43 @@
+{
+  "name": "react-text-editor",
+  "version": "1.0.0",
+  "description": "WYSIWYG text editor component for reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev" : "./node_modules/.bin/webpack-dev-server --content-base dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developingwoot/react-text-editor.git"
+  },
+  "keywords": [
+    "text",
+    "editor",
+    "wysiwyg",
+    "reactjs"
+  ],
+  "author": "Joseph Wooten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developingwoot/react-text-editor/issues"
+  },
+  "homepage": "https://github.com/developingwoot/react-text-editor#readme",
+  "dependencies": {
+    "draft-js": "^0.10.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "enzyme": "^2.7.1",
+    "jest": "^18.1.0",
+    "react-addons-test-utils": "^15.4.2",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
